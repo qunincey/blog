@@ -11,17 +11,7 @@ module.exports = {
   },
   themeConfig: {
     nav: require("./nav"),
-    sidebar: {
-      '/guide/': [
-        {
-          title: '简历',
-          collapsable: true,
-          children: [
-            '/guide/notes/one',
-          ]
-        }
-      ]
-    },
+    sidebar: require("./sidebar"),
     sidebarDepth: 2,
     lastUpdated: 'Last Updated',
     searchMaxSuggestoins: 10,

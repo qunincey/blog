@@ -1,10 +1,6 @@
 module.exports = [
   {
     text: '关于我', link: '/guide/',
-    items: [
-      { text: '个人介绍', link: '/guide/introduction/' },
-      { text: '简历', link: '/guide/resume/' },
-    ]
   },
   // {
   //   text: '面试宝典', link: '/baodian/',
