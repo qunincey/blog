@@ -1,6 +1,6 @@
 module.exports = {
-  title: '邱旭个人技术备忘录',
-  description: '测试',
+  title: '邱旭备忘录',
+  description: '自言自语之地',
   dest: './dist',
   port: '7777',
   head: [
@@ -10,23 +10,14 @@ module.exports = {
     lineNumbers: true
   },
   themeConfig: {
-    nav: [{
-      text: '懵逼指南', link: '/guide/'
-    }],
+    nav: require("./nav"),
     sidebar: {
       '/guide/': [
         {
-          title: '新手指南',
+          title: '简历',
           collapsable: true,
           children: [
             '/guide/notes/one',
-          ]
-        },
-        {
-          title: '知码学院',
-          collapsable: true,
-          children: [
-            '/guide/notes/two',
           ]
         }
       ]
