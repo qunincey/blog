@@ -5,15 +5,15 @@ module.exports = [
   {
     text: '其他技能', link: '/others/',
   },
-  // {
-  //   text: '工具箱',
-  //   items: [
-  //     {
-  //       text: '在线编辑',
-  //       items: [
-  //         { text: '图片压缩', link: 'https://tinypng.com/' }
-  //       ]
-  //     },
+  {
+    text: '前端',
+    items: [
+      {
+        text: 'vue',
+        link: '/vue/'
+      },
+    ]
+  },
   //     {
   //       text: '在线服务',
   //       items: [
