@@ -1,6 +1,6 @@
 # render 渲染函数
 
-render函数在vue中被称为渲染函数，在我的理解里是用来动态创建节点的函数，vue最重要的理念在于MVVM，而这个概念的提出就意味着我们尽量少的去使用原生js操作dom元素。
+render函数在vue中被称为渲染函数，在我的理解里是用来动态创建节点的函数，vue最重要的理念在于MVVM，而这个概念的提出就意味着我们尽量少的去使用原生js操作dom元素。但有时候不得不操作dom元素时，我们就可以使用render函数
 
 ```html
 <script type="text/x-template" id="anchored-heading-template">
