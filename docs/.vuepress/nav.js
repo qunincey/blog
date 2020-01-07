@@ -3,7 +3,17 @@ module.exports = [
     text: '关于我', link: '/guide/',
   },
   {
-    text: '其他技能', link: '/others/',
+    text: '其他技能',
+    items: [
+      {
+        text: '写作相关',
+        link: '/others/'
+      },
+      {
+        text: '财务知识',
+        link: '/money/'
+      }
+    ]
   },
   {
     text: '前端',
